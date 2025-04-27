@@ -16,6 +16,9 @@ The guide and this repository demonstrate how to:
 * Set up basic security groups to allow inter-VPC communication.
 * Apply and test the Terraform configuration to verify the peering setup.
 
+## Architectural Diagram
+![VPC Peering Architecture](VPC_Peering.png)
+
 ## Repository Contents
 
 Review the Terraform-Docs here [Terraform-Docs](Infrastructure_README.md)
