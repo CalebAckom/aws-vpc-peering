@@ -1,15 +1,3 @@
-[//]: # (# VPC Peering)
-
-[//]: # ()
-[//]: # (The city's Chief Marketing Officer wanted a logical isolation of their applications, so they set up separate VPCs for their Marketing, Development, and Finance Departments. However, all departments depend on getting reports from Finance.)
-
-[//]: # (Due to the isolated VPCs, the team members in Marketing and Development need to raise tickets to gain access to Finance reports, which reduces their productivity.)
-
-[//]: # ()
-[//]: # (In this tutorial, we will create a VPC peering for Marketing VPC to Finance VPC.)
-
-[//]: # ()
-
 # Implementing AWS VPC Peering with Terraform: A Practical Guide
 
 [![Terraform](https://img.shields.io/badge/Terraform-%237B42F4.svg?style=for-the-badge&logo=terraform)](https://www.terraform.io/) [![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
@@ -29,6 +17,8 @@ The guide and this repository demonstrate how to:
 * Apply and test the Terraform configuration to verify the peering setup.
 
 ## Repository Contents
+
+Review the Terraform-Docs here [Terraform-Docs](Infrastructure_README.md)
 
 * `provider.tf`: Defines the AWS provider and backend configuration (S3 for state).
 * `variables.tf`: Declares the input variables for the infrastructure.
